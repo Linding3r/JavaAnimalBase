@@ -22,6 +22,19 @@ public class Animal {
         return name + " the " + desc + " " + type + ", age " + age + ", weight " + weight +"kg";
     }
 
+    public String getDesc() {
+        return desc;
+    }
 
+    public String getType() {
+        return type;
+    }
 
+    public int getAge() {
+        return age;
+    }
+
+    public double getWeight() {
+        return weight;
+    }
 }
